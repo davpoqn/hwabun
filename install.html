@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>설치와 지우기 — 바탕화분</title>
+<meta name="description" content="바탕화분을 처음 여는 방법(윈도우 PC 보호 창, 맥 확인 창)과 깨끗하게 지우는 방법.">
+<link rel="icon" type="image/png" href="img/sprout.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./"><img class="pixel" src="img/sprout.png" alt="" width="32" height="32">바탕화분</a>
+    <nav class="links" aria-label="페이지">
+      <a href="./#download">다운로드</a>
+      <a href="install.html" aria-current="page">설치·지우기</a>
+      <a href="./#faq">자주 묻는 것</a>
+      <a href="changelog.html">변경 내역</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap doc">
+  <h1>설치와 지우기</h1>
+  <p class="meta">설치 프로그램은 없어요. 압축을 풀고 바로 실행해요.</p>
+
+  <h2 id="windows">윈도우</h2>
+  <ol>
+    <li><strong>압축을 먼저 풀어요.</strong> 받은 <code>Hwabun-windows.zip</code>에 마우스 오른쪽 클릭 → “모두 압축 풀기”.
+      압축 파일 안에서 바로 실행하면 안 돼요.</li>
+    <li>푼 폴더를 둘 곳(예: 문서 폴더)으로 옮겨요. 한 번 실행한 뒤에는 옮기지 않는 게 좋아요.</li>
+    <li><code>Hwabun.exe</code>를 더블클릭해요.</li>
+    <li>파란 <strong>“Windows의 PC 보호”</strong> 창이 뜨면 <em>추가 정보</em> → <em>실행</em>을 눌러요.
+      회사 서명이 없는 개인 프로그램이라 처음 한 번 뜨는 경고예요.</li>
+    <li>식물 도감이 열리면 장소 탭(방 창가 · 집 앞 마당 · 옥상 텃밭)에서 식물을 골라 “이거 키우기”.
+      바탕화면 배경이 바뀌고, 바탕화면에 물뿌리개가 생겨요.</li>
+  </ol>
+  <p class="note">윈도우 11의 “스마트 앱 컨트롤”이 켜진 PC에서는 아예 막힐 수 있어요. 그럴 땐 이 PC에서는 쓰지 못해요(보안 설정을 끄라고 권하지 않아요).</p>
+
+  <h3>쓰는 법</h3>
+  <ul>
+    <li><strong>물 주기:</strong> 바탕화면의 물뿌리개를 더블클릭. 하루 한 번.</li>
+    <li><strong>메뉴:</strong> 화면 오른쪽 아래 시계 옆의 새싹 아이콘. 안 보이면 <kbd>^</kbd> 화살표 안에 있어요.</li>
+    <li><strong>반려동물:</strong> 그림 속 반려동물을 두 번 클릭 → 밥 주기 · 간식 · 개인기.</li>
+    <li><strong>아이콘 숨기기:</strong> 아이콘을 그림 속 카페트(마당·옥상은 돗자리) 위로 끌어다 놓기. 카페트를 두 번 누르면 다시 나와요.
+      바탕화면 오른쪽 클릭 → 보기 → “아이콘 자동 정렬”이 꺼져 있어야 해요.</li>
+    <li>컴퓨터를 다시 켜면 프로그램은 꺼져 있어요. 물뿌리개를 누르면 같이 켜지고, 메뉴에서 “윈도우 시작 시 자동 실행”을 켤 수도 있어요.</li>
+  </ul>
+
+  <h2 id="mac">맥</h2>
+  <ol>
+    <li>받은 <code>Hwabun-mac.zip</code>을 열면 나오는 <strong>바탕화분</strong> 앱을 “응용 프로그램” 폴더로 옮겨요.</li>
+    <li>앱을 더블클릭해요. 처음에는 <strong>“Apple에서 악성 소프트웨어가 있는지 확인할 수 없기 때문에 열 수 없습니다”</strong>
+      (또는 “열 수 없음”) 창이 떠요. <em>확인</em>(또는 <em>완료</em>)을 누르고 아래 중 하나로 한 번 허락해요.
+      <ul>
+        <li><strong>방법 1 (macOS 14 이하):</strong> Finder에서 앱을 오른쪽 클릭(또는 control-클릭) → <em>열기</em> → 다시 <em>열기</em>.</li>
+        <li><strong>방법 2 (macOS 15 이상):</strong> 시스템 설정 → 개인정보 보호 및 보안 → 맨 아래 “바탕화분이(가) 차단되었습니다” 옆
+          <em>그래도 열기</em> → 다시 <em>그래도 열기</em> → 맥 암호.</li>
+        <li><strong>방법 3 (그래도 안 되거나 “손상되었기 때문에 열 수 없습니다”가 뜰 때):</strong> 터미널에 아래를 붙여 넣고 Enter, 그다음 다시 열기.
+          <pre><code>xattr -dr com.apple.quarantine /Applications/Hwabun.app</code></pre></li>
+      </ul>
+    </li>
+    <li>식물을 고르면 배경이 바뀌어요. “바탕화면 폴더에 접근하려고 합니다” 창이 뜨면 <em>허용</em>을 눌러 주세요(바탕화면에 물뿌리개를 만들어요).</li>
+    <li>바탕화분은 화면 맨 위 오른쪽, <strong>메뉴 막대의 새싹 아이콘</strong>에 있어요(Dock에는 안 보여요).</li>
+  </ol>
+  <p class="note">맥판에는 아직 아이콘 숨기기와 반려동물 놀기(밥·간식·개인기)가 없어요. 데스크탑을 여러 개 쓰면 지금 보고 있는 데스크탑의 배경만 바뀌어요.</p>
+
+  <h2 id="remove">지우기</h2>
+  <ol>
+    <li>메뉴(윈도우는 시계 옆, 맥은 메뉴 막대의 새싹) → <strong>“완전히 지우기…”</strong>를 먼저 눌러요.
+      원래 배경화면, 숨긴 아이콘, 바탕화면 물뿌리개, 자동 실행, 키우던 기록을 모두 원래대로 돌려 놓고 지워요.</li>
+    <li>그다음 프로그램 파일(윈도우는 <code>Hwabun.exe</code>가 든 폴더, 맥은 응용 프로그램의 바탕화분 앱)을 지우면 끝이에요.</li>
+  </ol>
+  <p class="note">순서를 바꿔 프로그램만 먼저 지웠다면, 다시 받아 실행한 뒤 “완전히 지우기”를 누르면 정리돼요.
+    카페트 밑에 숨긴 아이콘은 지워진 게 아니라 숨김 상태일 뿐이에요(탐색기 “보기”에서 “숨긴 항목”을 켜면 보여요).</p>
+
+  <h2 id="data">기록이 저장되는 곳</h2>
+  <div class="table-scroll">
+  <table>
+    <tr><th>윈도우</th><td><code>%LOCALAPPDATA%\Hwabun\</code></td></tr>
+    <tr><th>맥</th><td><code>~/Library/Application Support/Hwabun/</code></td></tr>
+  </table>
+  </div>
+  <p class="note">문제가 생기면 이 폴더의 <code>error.log</code>(있을 때만 생겨요)를 <a href="https://github.com/davpoqn/hwabun/issues">GitHub 이슈</a>에 붙여 주시면 고치기 쉬워요.</p>
+</main>
+
+<footer class="bottom">
+  <div class="wrap">
+    <span>바탕화분 · 만든이 davpoqn</span>
+    <a href="terms.html">이용약관</a>
+    <a href="privacy.html">개인정보 처리방침</a>
+    <a href="changelog.html">변경 내역</a>
+    <a href="https://github.com/davpoqn/hwabun/issues">문의(GitHub 이슈)</a>
+  </div>
+</footer>
+</body>
+</html>
