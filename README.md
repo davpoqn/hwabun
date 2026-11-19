@@ -5,7 +5,7 @@
 
 - 소개와 다운로드: **https://davpoqn.github.io/hwabun**
 - 모든 판: [Releases](https://github.com/davpoqn/hwabun/releases)
-- 문의·문제 신고: [Issues](https://github.com/davpoqn/hwabun/issues) — 누구나 볼 수 있으니 개인 정보는 적지 말아 주세요.
+- 의견·버그 신고: 메일로 받아요. 주소는 [소개 페이지](https://davpoqn.github.io/hwabun/privacy.html#contact) 맨 아래 "문의"에 있어요.
 
 이 저장소에는 소개 페이지와 배포 파일만 있어요. 프로그램 소스 코드는 공개하지 않아요.
 이용 조건은 [이용약관](https://davpoqn.github.io/hwabun/terms.html)을 따라요.
